@@ -29,3 +29,15 @@
         myTextView.text = timesClicked.toString()
     }
 ```
+
+### Toast
+
+- Toast는 안내 메세지가 나오고 일정 시간이 지나면 사라지는 팝업 메세지
+- 인자
+  1. context
+  2. 메세지 내용
+  3. 노출 시간(Toast.LENGTH_SHORT or Toast.LENGTH_LONG)
+
+```kotlin
+    Toast.makeText(this,"This is Toast!", Toast.LENGTH_LONG).show()
+```
