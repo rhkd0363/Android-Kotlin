@@ -56,5 +56,9 @@ fun main() {
     val lastChatInString = myStr[myStr.length - 1]
 
     print(firstChatInString +""+ lastChatInString)
+
+    // 보간법
+    println("My String: $myString and the length of MyString is ${myString.length}");
+
 }
 ```
